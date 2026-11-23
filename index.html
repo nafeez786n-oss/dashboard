@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NRI University | Student Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <a class="brand" href="#overview"><span class="brand-mark">N</span><span>NRI <b>UNIVERSITY</b><small>STUDENT PORTAL</small></span></a>
+    <p class="side-label">STUDENT MENU</p>
+    <a class="side-link active" href="#overview">▦ &nbsp; Dashboard</a>
+    <a class="side-link" href="#timetable">▤ &nbsp; Timetable</a>
+    <a class="side-link" href="#attendance">◷ &nbsp; Attendance</a>
+    <a class="side-link" href="#results">▥ &nbsp; Results</a>
+    <a class="side-link" href="#notices">♧ &nbsp; Notices</a>
+    <div class="sidebar-bottom"><div class="mini-avatar">NS</div><div><strong>Nafeez S.</strong><small>B.Tech · First Year</small></div></div>
+  </aside>
+
+  <main class="main-content" id="overview">
+    <header class="topbar">
+      <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+      <div><span class="date-label">STUDENT PORTAL / ACADEMIC YEAR 2026–27</span><h1>Welcome back, Nafeez! <span>✦</span></h1><p>Here is your academic snapshot for today.</p></div>
+      <div class="top-avatar" title="Nafeez S.">NS</div>
+    </header>
+
+    <section class="welcome-card">
+      <div><span class="light-label">NRI UNIVERSITY · STUDENT SPACE</span><h2>Your goals are closer<br>than you think.</h2><p>Stay curious, stay consistent and make today count.</p><a href="#timetable" class="welcome-button">View today's classes ↗</a></div>
+      <div class="welcome-art">🎓<span>✦</span></div>
+    </section>
+
+    <section class="stats-grid" id="attendance">
+      <article class="stat-card"><div class="stat-top"><span>Attendance</span><span class="stat-icon purple">◷</span></div><strong>86%</strong><div class="progress"><span style="width:86%"></span></div><small>Sample student data · Good progress</small></article>
+      <article class="stat-card"><div class="stat-top"><span>Average Marks</span><span class="stat-icon orange">✎</span></div><strong>82<span class="unit">/100</span></strong><div class="progress orange-bar"><span style="width:82%"></span></div><small>Sample semester performance</small></article>
+      <article class="stat-card"><div class="stat-top"><span>Enrolled Subjects</span><span class="stat-icon green">▤</span></div><strong>06</strong><div class="stat-note">First-year semester subjects</div><small>See your timetable below</small></article>
+    </section>
+
+    <section class="content-grid">
+      <article class="panel" id="timetable">
+        <div class="panel-heading"><div><h3>Today's timetable</h3><p>Monday · Sample schedule</p></div><span class="pill">SEMESTER 1</span></div>
+        <div class="class-row"><div class="time">09:00<br><small>10:00</small></div><div class="class-color lilac"></div><div class="class-info"><strong>Web Development</strong><small>HTML & CSS · Classroom 204</small></div><span class="status live">FIRST</span></div>
+        <div class="class-row"><div class="time">10:15<br><small>11:15</small></div><div class="class-color peach"></div><div class="class-info"><strong>Engineering Mathematics</strong><small>Calculus · Classroom 108</small></div><span class="status">NEXT</span></div>
+        <div class="class-row"><div class="time">11:30<br><small>12:30</small></div><div class="class-color mint"></div><div class="class-info"><strong>Programming in C</strong><small>Computer Lab 02</small></div><span class="status">LATER</span></div>
+        <div class="class-row"><div class="time">14:00<br><small>15:00</small></div><div class="class-color blue"></div><div class="class-info"><strong>Engineering Physics</strong><small>Classroom 301</small></div><span class="status">LATER</span></div>
+      </article>
+      <article class="panel" id="notices">
+        <div class="panel-heading"><div><h3>University notices</h3><p>Latest student updates</p></div><span class="notice-count">3 updates</span></div>
+        <div class="notice"><span class="notice-dot purple-dot"></span><div><strong>Web Development Activity</strong><p>Complete and deploy all three mini projects.</p><small>Academic notice · Sample</small></div></div>
+        <div class="notice"><span class="notice-dot orange-dot"></span><div><strong>Library reminder</strong><p>Carry your student ID when visiting the library.</p><small>Campus update · Sample</small></div></div>
+        <div class="notice"><span class="notice-dot green-dot"></span><div><strong>Student clubs</strong><p>Explore coding and cultural club activities.</p><small>Student life · Sample</small></div></div>
+      </article>
+    </section>
+
+    <section class="panel results-panel" id="results">
+      <div class="panel-heading"><div><h3>Academic performance</h3><p>Illustrative marks for dashboard demonstration</p></div><span class="pill">YEAR 1</span></div>
+      <div class="subject"><span>Web Development</span><div class="subject-bar"><span style="width:88%"></span></div><strong>88</strong></div>
+      <div class="subject"><span>Mathematics</span><div class="subject-bar"><span style="width:76%"></span></div><strong>76</strong></div>
+      <div class="subject"><span>Programming in C</span><div class="subject-bar"><span style="width:84%"></span></div><strong>84</strong></div>
+      <div class="subject"><span>Engineering Physics</span><div class="subject-bar"><span style="width:80%"></span></div><strong>80</strong></div>
+    </section>
+    <footer>NRI University Student Portal · Student project concept · Demo information only</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
